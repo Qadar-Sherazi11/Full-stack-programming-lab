@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Product Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tabs-container">
+        <nav class="tab-nav">
+            <button class="tab-link active" data-target="desc">Description</button>
+            <button class="tab-link" data-target="specs">Specifications</button>
+            <button class="tab-link" data-target="reviews">Reviews</button>
+            <button class="tab-link" data-target="shipping">Shipping</button>
+        </nav>
+
+        <div class="content-wrapper">
+            <section id="desc" class="tab-content active">
+                <h2>Product Description</h2>
+                <p>This premium high-performance laptop features the latest processor and a stunning 4K display, perfect for creators and gamers alike.</p>
+            </section>
+
+            <section id="specs" class="tab-content">
+                <h2>Technical Specifications</h2>
+                <ul>
+                    <li>RAM: 32GB DDR5</li>
+                    <li>Storage: 1TB NVMe SSD</li>
+                    <li>GPU: RTX 4080</li>
+                </ul>
+            </section>
+
+            <section id="reviews" class="tab-content">
+                <h2>Customer Reviews</h2>
+                <p>⭐⭐⭐⭐⭐ - "Best purchase I've made this year!" - Jane D.</p>
+                <p>⭐⭐⭐⭐ - "Incredible speed, though a bit heavy." - Mark S.</p>
+            </section>
+
+            <section id="shipping" class="tab-content">
+                <h2>Shipping Info</h2>
+                <p>Free express shipping on orders over $500. Estimated delivery: 3-5 business days.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
